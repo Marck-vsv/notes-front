@@ -5,9 +5,9 @@ Tag.propTypes = {
   title: PropTypes.string.isRequired
 };
 
-export function Tag({ title }) {
+export function Tag({ title, ...rest }) {
   return (
-    <Container>
+    <Container {...rest}>
       {title}
     </Container>
   )
