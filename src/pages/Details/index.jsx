@@ -1,4 +1,4 @@
-import { Container, Links } from './styles';
+import { Container, Links, Content } from './styles';
 
 import { Header } from '../../components/Header'
 import { Section } from '../../components/Section'
@@ -11,24 +11,37 @@ export function Details () {
     <Container>
       <Header />
 
-      <ButtonText title='Excluir Nota'/>
+      <main>
+        <Content>
 
-      <Section title='Links úteis'>
-        <Links>
-          <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-          </ul>
-        </Links>
-      </Section>
+          <ButtonText title='Excluir Nota'/>
 
-      <Section title='Marcadores'>
-        <Tag title='express'/>
-        <Tag title='node'/>
-      </Section>
+          <h1>
+            Place text
+          </h1>
 
-      <Button title='voltar'/>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, iusto blanditiis. Error dolor sapiente rem quasi? Temporibus, fugit! Architecto hic distinctio sapiente dolor excepturi nihil magnam fugit est possimus nesciunt!
+          </p>
+
+          <Section title='Links úteis'>
+            <Links>
+              <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+              </ul>
+            </Links>
+          </Section>
+
+          <Section title='Marcadores'>
+            <Tag title='express'/>
+            <Tag title='node'/>
+          </Section>
+
+          <Button title='voltar'/>
+        </Content>
+      </main>
     </Container>
   )
 }
