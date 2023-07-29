@@ -4,7 +4,7 @@ import { Tag } from '../Tag';
 import PropTypes from 'prop-types';
 
 Note.propTypes = {
-  data: PropTypes.string
+  data: PropTypes.object
 };
 
 export function Note ({ data, ...rest }) {

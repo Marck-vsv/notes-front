@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 
 Input.propTypes = {
-  icon: PropTypes.string
+  icon: PropTypes.func
 }
 
 export function Input ({ icon: Icon, ...rest }) {

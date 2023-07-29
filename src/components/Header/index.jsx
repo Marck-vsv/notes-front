@@ -5,7 +5,7 @@ export function Header() {
   return (
     <Container>
       <Profile>
-        <img src='https://github.com/marck-vsv.png'/>
+        <img src='https://github.com/aaaaa.png'/>
         <div>
           <span>Bem-vindo</span>
           <strong>Marcos Vinicius</strong>

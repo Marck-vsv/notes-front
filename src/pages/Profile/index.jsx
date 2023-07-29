@@ -15,7 +15,7 @@ export function Profile () {
 
       <Form>
         <Avatar>
-          <img src="https://github.com/Marck-vsv.png"/>
+          <img src="https://github.com/aaaaaa.png"/>
 
           <label htmlFor='avatar'>
             <FiCamera/>
