@@ -1,8 +1,9 @@
-﻿import { Header } from '../../components/Header'
-import { Input } from '../../components/Input'
-import { Textarea } from '../../components/Textarea'
+﻿import { Header } from '../../components/Header';
+import { Input } from '../../components/Input';
+import { Textarea } from '../../components/Textarea';
+import { Noteitem } from '../../components/Noteitem';
 
-import { Container, Form } from './styles'
+import { Container, Form } from './styles';
 
 export function New () {
   return (
@@ -18,7 +19,9 @@ export function New () {
 
           <Input placeholder='Titulo'/>
 
-          <Textarea placeholder='conteudo'/>
+          <Textarea placeholder='Observações'/>
+
+          <Noteitem/>
         </Form>
       </main>
     </Container>
