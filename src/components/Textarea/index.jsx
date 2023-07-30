@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 
 Textarea.propTypes = {
-  value: PropTypes.any
+  value: PropTypes.string
 }
 export function Textarea ({ value }, ...rest) {
   return (

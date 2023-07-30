@@ -3,7 +3,7 @@ import { Container } from './styles';
 import PropTypes from 'prop-types';
 
 Noteitem.propTypes = {
-  isnew: PropTypes.bool,
+  isnew: PropTypes.any,
   value: PropTypes.any,
   onClick: PropTypes.func
 }
@@ -20,6 +20,7 @@ export function Noteitem ({isnew, value, onClick, ...rest}) {
       <button 
         type='button'
         onClick={onClick}
+        className={isnew ? 'button-add' : 'button-delete'}
       >
         { isnew ? <FiPlus/> : <FiX/>}
       </button>
